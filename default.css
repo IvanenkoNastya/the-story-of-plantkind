@@ -1,4 +1,5 @@
 html {
+    color: inherit;
     cursor: url("assets/icons/treble-clef-grey.svg"), auto;
 }
 
