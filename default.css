@@ -1,0 +1,112 @@
+html {
+    cursor: url("assets/icons/treble-clef-grey.svg"), auto;
+}
+
+body {
+
+    display: inline-block;
+    float: left;
+    width: auto;
+    /*margin: 5% auto;*/
+    padding: 10% 10% 0% 10%;
+
+    font: normal 16px/1.5 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+    background-image: url('assets/images/SilverMaple2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    transition: all 8s;
+}
+
+main {
+    min-height: calc(100vh - 400px);
+}
+
+h1 {
+    color: rgba(161, 162, 149, 1);
+    text-align-last: center;
+}
+
+h2 {
+    color: rgb(170, 210, 160, 1);
+    text-align-last: center;
+}
+
+p {
+    color: rgb(170, 210, 160, 1);
+}
+
+.page-header {
+
+}
+
+.page-footer {
+    border-radius: 16px;
+    padding: 1%;
+    background-color: rgba(92, 53, 27, 0.4);
+}
+
+.footer-p {
+    color: rgba(161, 162, 149, 1);
+}
+
+.page-main-text {
+    padding: 5%;
+    margin: 1%;
+    background-color: rgba(16, 51, 16, 0.9);
+    border-radius: 16px;
+}
+
+.page-section {
+
+}
+
+.my-href {
+    display: inline-block;
+    margin: 1%;
+    padding: 0.8% 10%;
+
+    border: 4px solid rgb(170, 210, 160, 0.7);
+    border-radius: 16px;
+    /*cursor: pointer;*/
+    cursor: url("assets/icons/treble-clef-green-light.svg"), auto;
+
+    text-decoration: none;
+    font-style: normal;
+    font-size: 32px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: rgb(170, 210, 160, 1);
+    background-color: rgba(92, 53, 27, 0.4);
+
+}
+
+.my-href:hover {
+    background-color: rgba(92, 53, 27, 0.9);
+    font-style: italic;
+}
+
+.large-img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 1%;
+
+    /*margin: 1%;
+    max-block-size: 500px;*/
+}
+
+
+.small-img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    /*
+    width: 500px;
+    height: 500px;*/
+    padding: 1%;
+
+}
