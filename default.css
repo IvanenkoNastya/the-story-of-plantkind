@@ -1,3 +1,7 @@
+:root {
+    color-scheme: normal;
+}
+
 html {
     color: inherit;
     cursor: url("assets/icons/treble-clef-grey.svg"), auto;
@@ -20,7 +24,7 @@ body {
     background-position: center;
     background-size: cover;
 
-    transition: all 8s;
+    /*transition: all 8s;*/
 }
 
 main {
